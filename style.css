@@ -1,0 +1,89 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:"Montserrat";
+  
+}
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+.tituloconimagen {
+    font-size: xx-large;
+    position: relative;
+    background-image: url(https://asougidigital.com/marketing/img/l/servicios-publicidad-marketing/Servicios1.jpg);
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column; /* Apila h1 y h5 verticalmente */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.tituloconimagen::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Oscurece la imagen con un overlay negro al 50% de opacidad */
+    z-index: 1;
+}
+
+.tituloconimagen h1,
+.tituloconimagen h5 {
+    
+    position: relative;
+    z-index: 2;
+    margin: 10px;
+    padding: 0;
+    color: rgb(214, 230, 215); /* Asegura que el texto sea blanco */
+}
+
+
+nav{
+    background-color: black;
+    height: 80px;
+    margin:0px;
+    padding: 0px;
+
+}
+.logo{
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 50px;
+}
+
+main{
+    font-family:"Montserrat"
+
+}
+.texto1{
+    display: flex;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    font-size: xx-large;
+}
+
+
+.Red{
+ height: 100px;
+ width: 100px;
+ justify-content: center;
+ align-items: center;
+}
+.texto2{
+ display: flex;
+ flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
